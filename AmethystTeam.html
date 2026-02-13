@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AmethystTeam | Gorilla Tag Competitive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --purple: #b26bff;
+      --dark: #06060d;
+      --panel: #120a1f;
+      --text: #efe6ff;
+      --muted: #b9a7e6;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(circle at top, #2a0f45, #05020a);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 70px 20px;
+      text-align: center;
+      background: radial-gradient(circle at top, #2a124a, #07070d);
+      border-bottom: 2px solid var(--purple);
+    }
+
+    /* 🔥 LOGO STYLING */
+    .team-logo {
+      width: 180px;
+      margin-bottom: 25px;
+      filter: drop-shadow(0 0 25px rgba(178, 107, 255, 0.9));
+      animation: pulseGlow 3s infinite ease-in-out;
+    }
+
+    @keyframes pulseGlow {
+      0% {
+        filter: drop-shadow(0 0 15px rgba(178, 107, 255, 0.6));
+      }
+      50% {
+        filter: drop-shadow(0 0 40px rgba(200, 140, 255, 1));
+      }
+      100% {
+        filter: drop-shadow(0 0 15px rgba(178, 107, 255, 0.6));
+      }
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--purple);
+      letter-spacing: 2px;
+    }
+
+    header p {
+      color: var(--muted);
+      max-width: 700px;
+      margin: 15px auto 0;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 30px;
+      background: var(--panel);
+      border-radius: 14px;
+      box-shadow: 0 0 40px rgba(178, 107, 255, 0.25);
+    }
+
+    section h2 {
+      color: var(--purple);
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      border-bottom: 1px solid rgba(178, 107, 255, 0.3);
+      padding-bottom: 10px;
+    }
+
+    .divider {
+      margin: 25px 0;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 3px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    .discord-box {
+      text-align: center;
+      padding: 30px;
+      background: #0d0818;
+      border-radius: 12px;
+      border: 1px solid rgba(178, 107, 255, 0.5);
+    }
+
+    .discord-box button {
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: var(--purple);
+      border: none;
+      color: #fff;
+      font-size: 1rem;
+      font-family: inherit;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .discord-box button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 30px rgba(178, 107, 255, 0.9);
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 30px 15px;
+      text-align: center;
+      color: var(--muted);
+      border-top: 1px solid rgba(178, 107, 255, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="AmethystTeamLogo.png" alt="AmethystTeam Logo" class="team-logo">
+    <h1>AmethystTeam (AMT)</h1>
+    <p>High-level Gorilla Tag competitive team built on skill, discipline, and sportsmanship.</p>
+  </header>
+
+  <!-- INVITE POLICY -->
+  <section>
+    <h2>Invite-Only Policy</h2>
+
+    <p><strong>AMT is an invite-only team.</strong> We do not hold tryouts.</p>
+    <p>Please don’t DM members asking to try out or to join — this isn’t something we do.</p>
+    <p><strong>We reach out to you, not the other way around.</strong></p>
+
+    <div class="divider">━━━━━━━━━━━━━━━━━━━━</div>
+
+    <h3>How Do Invites Happen?</h3>
+    <p>We scout players who:</p>
+    <ul>
+      <li>Demonstrate high skill</li>
+      <li>Have a strong reputation for sportsmanship and character</li>
+    </ul>
+    <p>Players who are toxic or disrespectful will not be considered, no matter how skilled.</p>
+
+    <div class="divider">━━━━━━━━━━━━━━━━━━━━</div>
+
+    <h3>What We Look For</h3>
+    <ul>
+      <li>Consistent high-level gameplay</li>
+      <li>Positive, team-minded behavior</li>
+      <li>Known presence in competitive communities (scrims, leagues, events)</li>
+    </ul>
+
+    <div class="divider">━━━━━━━━━━━━━━━━━━━━</div>
+
+    <h3>Age Requirement</h3>
+    <p>AMT follows Discord’s Terms of Service — <strong>13+ only</strong>.</p>
+    <p><a href="https://discord.com/terms" target="_blank" style="color:#b26bff;">Read Discord ToS</a></p>
+  </section>
+
+  <!-- DISCORD + MMR -->
+  <section>
+    <h2>Discord & MMR System</h2>
+
+    <p>
+      Our Discord server is home to a custom-built bot powered by Vercel that tracks
+      competitive Gorilla Tag MMR.
+    </p>
+
+    <p>
+      The system allows anyone in our server to quickly look up player rankings.
+    </p>
+
+    <ul>
+      <li>Fully automated MMR tracking</li>
+      <li>Fast database lookups</li>
+      <li>Competitive-focused ranking logic</li>
+    </ul>
+
+    <p><strong>How to use it:</strong></p>
+    <ul>
+      <li>Join our Discord</li>
+      <li>Type <code>/mmr</code></li>
+      <li>Enter a username</li>
+      <li>View live MMR data instantly</li>
+    </ul>
+
+    <div class="discord-box">
+      <h3>Connect Your Discord</h3>
+      <p>Link your Discord account to access team features and stats.</p>
+      <button onclick="alert('Discord OAuth backend required')">Connect Discord</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong>AmethystTeam</strong></p>
+    <p>© 2026 AmethystTeam</p>
+  </footer>
+
+</body>
+</html>
